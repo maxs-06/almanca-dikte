@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Almanca Dikte</title>
+<meta name="description" content="A1 ve A2 Almanca dikte uygulamaları. Hazırlayan: Nuh KARAKOÇ.">
+<link rel="icon" type="image/png" href="a1/icons/icon-192.png">
+<style>
+:root{--paper:#F6F5F1;--surface:#FFFFFF;--ink:#16204A;--muted:#5A6390;--rule:#DDD9CE;--navy:#26387F;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--paper:#111833;--surface:#1A2348;--ink:#EEF1FF;--muted:#A9B1D6;--rule:#303B6B;--navy:#A3B7FF;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 system-ui,-apple-system,'Segoe UI',sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px 56px;display:flex;flex-direction:column;gap:24px}
+h1{margin:0;font-size:clamp(28px,6vw,40px);line-height:1.1}
+p{margin:0}
+.who{color:var(--muted)}
+.apps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.app{display:flex;align-items:center;gap:16px;padding:16px;min-height:96px;border-radius:18px;background:var(--surface);border:2px solid var(--rule);color:inherit;text-decoration:none}
+.app:hover,.app:focus-visible{border-color:var(--navy)}
+.app:focus-visible{outline:3px solid var(--navy);outline-offset:3px}
+.app img{width:64px;height:64px;border-radius:16px;flex:none}
+.app b{display:block;font-size:19px}
+.app span{color:var(--muted);font-size:15px}
+.note{color:var(--muted);font-size:15px;border-top:1px solid var(--rule);padding-top:18px}
+</style>
+</head>
+<body>
+<main>
+  <div>
+    <h1>Almanca Dikte</h1>
+    <p class="who">Nuh KARAKOÇ · Almanca Öğretmeni</p>
+  </div>
+  <div class="apps">
+    <a class="app" href="a1/"><img src="a1/icons/icon-192.png" alt=""><span><b lang="de">A1 Rechtschreibung</b><span>10 test · 100 kelime · Hör zu &amp; schreib!</span></span></a>
+    <a class="app" href="a2/"><img src="a2/icons/icon-192.png" alt=""><span><b lang="de">Rechtschreibungstest A2</b><span>10 test · 100 kelime · Diktat</span></span></a>
+  </div>
+  <p class="note">Telefona kurmak için uygulamayı açın. Android’de Chrome menüsünden “Uygulamayı yükle” ya da “Ana ekrana ekle”yi, iPhone’da Safari’de Paylaş düğmesinden “Ana Ekrana Ekle”yi seçin.</p>
+</main>
+</body>
+</html>

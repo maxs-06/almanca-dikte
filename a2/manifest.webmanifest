@@ -1,0 +1,33 @@
+{
+  "id": "./",
+  "name": "Rechtschreibungstest A2 · Diktat",
+  "short_name": "A2 Diktat",
+  "description": "A2 Almanca dikte: 10 test, 100 kelime, sınıf diktesi ve bireysel pratik.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F6FC",
+  "theme_color": "#F4F6FC",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
